@@ -7,7 +7,7 @@ function Markets({ markets, onclick }) {
           <Market
             name={m.marketname}
             key={m.id}
-            market={m}z
+            market={m}
             onclick={onclick}
           />
         ))
